@@ -1,7 +1,10 @@
 # (C++) => .exe
 ## 介绍
 本文介绍了如何从 ```.cpp```  文件生成对应的可执行文件 ```.exe``` 
-<span style="color:red">!!!注意替换[path to vcpkg]成本地路径!!!</span>
+
+⚠️ **注意替换 `[path to vcpkg]` 成本地路径** ⚠️
+⚠️ **注意构建失败的时候删除构建文件清理缓存，不然还会一样报错** ⚠️
+
 
 ## CMake
 CMake是因为程序员们觉得MakeFile太难写了，所以用CMake创建MakeFile
